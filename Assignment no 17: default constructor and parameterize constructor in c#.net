@@ -22,7 +22,7 @@ Console.WriteLine("Constructor called");
 publicstaticvoid Main(string[] args)
         {
 Program p = newProgram();
-Program p1 = newProgram(107, "arpita");
+Program p1 = newProgram(79, "LAksh");
 Console.ReadLine();
         }
     }
