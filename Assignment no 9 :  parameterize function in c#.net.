@@ -1,0 +1,26 @@
+Assignment no-9
+#program to demonstrate  parameterize function in c#.net.
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+
+namespace CSharp_Shell
+{
+           public class Program 
+    {  
+int x=0;
+    void print(int x,int y)
+	{
+		x=x+y;
+	Console.WriteLine(x);
+    Console.ReadLine();
+	}
+        public static void Main()
+     {
+	Program p=new Program();
+p.print(5,5);
+           } 
+           }
+}
