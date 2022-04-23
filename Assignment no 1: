@@ -1,0 +1,27 @@
+Assingment 1
+
+#Program to show how to to acceptruntime string in c#.net 
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace ConsoleApplication1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("enter the word");
+            string n1 = Console.ReadLine();
+            Console.WriteLine("how many times");
+            int no1 = Convert.ToInt32(Console.ReadLine());
+            for (int i = 1; i <= no1; i++)
+            {
+                Console.WriteLine("\n" + n1);
+                Console.ReadLine(); 
+}
+            }
+        }
+    } 
